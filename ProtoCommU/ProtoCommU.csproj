@@ -50,6 +50,7 @@
     <Compile Include="Source\MyCmdLineExec.cs" />
     <Compile Include="Source\Program.cs" />
     <Compile Include="Source\ProgramInit.cs" />
+    <Compile Include="Source\ProtoCommNetworkThread.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

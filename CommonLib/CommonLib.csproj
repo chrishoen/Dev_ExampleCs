@@ -78,7 +78,6 @@
     <Compile Include="Source\ProtoCommMsgBody.cs" />
     <Compile Include="Source\ProtoCommMsgHelper.cs" />
     <Compile Include="Source\ProtoCommMsgMessage.cs" />
-    <Compile Include="Source\ProtoCommNetworkThread.cs" />
     <Compile Include="Source\Settings.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
