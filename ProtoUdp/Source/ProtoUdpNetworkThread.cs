@@ -2,8 +2,9 @@ using System;
 using System.Text;
 
 using Ris;
+using ProtoComm;
 
-namespace ProtoComm
+namespace ProtoUdp
 {
     //**************************************************************************
     //**************************************************************************

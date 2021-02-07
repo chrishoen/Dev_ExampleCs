@@ -4,6 +4,7 @@ using System.Text;
 
 using Ris;
 using ProtoComm;
+using ProtoUdp;
 
 namespace MainApp
 {
@@ -19,7 +20,7 @@ namespace MainApp
 
         public static void initialize(string[] args)
         {
-            Console.WriteLine("ProtoCommU_CS BEGIN");
+            Console.WriteLine("ProtoUdp_CS BEGIN");
             initializePrint();
             Global.initialize(args);
         }
@@ -31,7 +32,7 @@ namespace MainApp
         public static void finalize()
         {
             Global.finalize();
-            Console.WriteLine("ProtoCommU_CS END");
+            Console.WriteLine("ProtoUdp_CS END");
         }
 
         //**********************************************************************

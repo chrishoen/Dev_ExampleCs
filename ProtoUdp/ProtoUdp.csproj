@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProtoComm</RootNamespace>
-    <AssemblyName>ProtoCommU</AssemblyName>
+    <AssemblyName>ProtoUdp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,7 @@
     <Compile Include="Source\MyCmdLineExec.cs" />
     <Compile Include="Source\Program.cs" />
     <Compile Include="Source\ProgramInit.cs" />
-    <Compile Include="Source\ProtoCommNetworkThread.cs" />
+    <Compile Include="Source\ProtoUdpNetworkThread.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

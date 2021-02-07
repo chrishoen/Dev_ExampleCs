@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{5EB29EA8-A3CB-4452-A1D6-EAF2F940B666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoCommU", "ProtoCommU\ProtoCommU.csproj", "{057B0A4F-8502-4F7C-88A7-A496C29233AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoUdp", "ProtoUdp\ProtoUdp.csproj", "{057B0A4F-8502-4F7C-88A7-A496C29233AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

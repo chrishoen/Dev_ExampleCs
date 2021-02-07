@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace ProtoComm
+namespace ProtoUdp
 {
     //******************************************************************************
     //******************************************************************************
@@ -13,7 +13,7 @@ namespace ProtoComm
         //******************************************************************************
         // Global objects
 
-        public static ProtoComm.NetworkThread  mNetworkThread;
+        public static ProtoUdp.NetworkThread  mNetworkThread;
 
         //******************************************************************************
         // Initialize
@@ -30,7 +30,7 @@ namespace ProtoComm
                 
             ProtoComm.MsgMonkeyCreator tMonkeyCreator = new ProtoComm.MsgMonkeyCreator();
             
-            mNetworkThread = new ProtoComm.NetworkThread();
+            mNetworkThread = new NetworkThread();
             if (tAppCode == 1)
             {
                 mNetworkThread.configure(tMonkeyCreator, "127.0.0.1", 56002, "127.0.0.1", 56001);
